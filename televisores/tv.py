@@ -73,14 +73,3 @@ class TV:
   def volumenDown(self):
     if self._volumen!=0 and self._estado == True:
       self._volumen-=1
-
-
-if __name__ == "__main__":
-
-  tv1 = TV("sony",False)
-  print(tv1.getMarca())
-  print(tv1.getEstado())
-  control1 = Control()
-  control1.enlazar(tv1)
-  control1.turnOn()
-  print(tv1.getEstado())
