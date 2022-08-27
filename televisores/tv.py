@@ -1,10 +1,10 @@
 class TV:
   _numTV = 0
   def __init__(self,marca,estado):
-    _canal = 1
-    _precio = 500
-    _volumen = 1
-    _control = None
+    self._canal = 1
+    self._precio = 500
+    self._volumen = 1
+    self._control = None
     self._marca = marca
     self._estado = estado
     TV._numTV+=1
